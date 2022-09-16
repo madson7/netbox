@@ -1,0 +1,7 @@
+---
+- name: "Playing with Ansible"
+  hosts: localhost
+  connection: local
+  become: true
+  roles:
+    - ansible-role-netbox
